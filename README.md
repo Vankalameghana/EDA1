@@ -1,49 +1,48 @@
 Zomato Dataset Exploratory Data Analysis (EDA)
-This repository contains a detailed exploratory data analysis (EDA) on the Zomato restaurant dataset. The dataset includes information about restaurants, their locations, cuisines, ratings, average costs, and customer votes across various cities.
+This repository contains an exploratory data analysis (EDA) of the Zomato restaurant dataset to extract meaningful insights from restaurant data across various locations.
 
-Dataset Description
-Source: Publicly available Zomato dataset (or specify the source if you have one)
+Dataset Overview
+Dataset: Zomato Restaurants Data
 
-Number of Records: ~ [Insert number of rows]
+Contents: Information about restaurants such as name, location, cuisine types, average cost for two people, ratings, and votes.
 
-Columns Include:
+Size: Approximately [insert number] rows and [insert number] columns.
 
-Restaurant Name: Name of the restaurant
+Objective
+Analyze the dataset to understand customer preferences and restaurant trends.
 
-Location: City or locality of the restaurant
+Explore relationships between location, cuisine, cost, ratings, and popularity.
 
-Cuisines: Types of cuisines offered
+Identify data quality issues such as missing values and duplicates.
 
-Average Cost for Two: Average meal cost for two people (in local currency)
+Columns in Dataset (Typical)
+Column Name	Description
+Restaurant Name	Name of the restaurant
+Location	City or area where the restaurant is located
+Cuisines	Types of cuisines offered
+Average Cost for Two	Average meal cost for two people (local currency)
+Aggregate Rating	Average customer rating (scale 0 to 5)
+Votes	Number of customer votes or reviews
 
-Aggregate Rating: Average customer rating (scale varies)
+Exploratory Data Analysis Highlights
+Missing Data: Some columns such as 'Cuisines' and 'Average Cost' may contain missing values that require cleaning.
 
-Votes: Number of customer ratings/votes
+Popular Cuisines: North Indian, Chinese, and Fast Food are among the most common cuisines.
 
-Other columns: [Add any other relevant columns]
+Rating Distribution: Ratings are generally skewed towards higher values, with many restaurants rated between 3.5 and 4.5.
 
-Project Objective
-Perform exploratory data analysis to understand:
+Cost vs Rating: Slight positive correlation observed between average cost and ratings.
 
-Distribution of ratings and costs
-
-Popular cuisines and locations
-
-Correlation between cost, rating, and votes
-
-Data quality checks such as missing values and duplicates
-
-Insights on customer preferences and restaurant popularity
+Top Locations: Locations with the most restaurants include [insert top locations].
 
 Tools & Libraries Used
-Python 3.x
+Python 3
 
-Pandas
+Pandas (for data manipulation)
 
-NumPy
+NumPy (numerical operations)
 
-Matplotlib
+Matplotlib & Seaborn (data visualization)
 
-Seaborn
+Jupyter Notebook (interactive analysis)
 
-Jupyter Notebook (optional)
